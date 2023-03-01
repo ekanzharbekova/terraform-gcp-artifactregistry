@@ -38,7 +38,7 @@ module "my-repository"{
 }
 
 module "nodejs-repository"{
-    source = "./module"
+    source = "ekanzharbekova/artifactregistry/gcp"
     artifact-config   = {
         repository_id = "nodejs-repo"
         location      = "us-central1"

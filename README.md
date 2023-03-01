@@ -30,7 +30,7 @@ provider "google" {
 ### Create new main.tf file and copy paste this line of code
 ```
 module "my-repository"{
-    source = "./module"
+    source = "ekanzharbekova/artifactregistry/gcp"
     artifact-config   = {
         repository_id = "my-repo"
         location      = "us-central1"
